@@ -1,0 +1,95 @@
+/* style home Sergio Pugliese */
+.logo {
+    background-color: #000;
+    min-height: 36px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo img {
+    max-width: 75px;
+}
+
+.carousel-inner {
+    padding-bottom: 150px;
+}
+
+.carousel-indicators [data-bs-target] {
+    max-width: 180px;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+
+.carousel-indicators .active {
+    border: 5px solid rgb(0, 128, 255);
+    border-radius: 20px;
+}
+
+.carousel-indicators [data-bs-target] img {
+    border-radius: 20px;
+}
+/* --------------------------------------------------------------------style home Francesco Dui-----------------------------------------------------------------*/
+
+/*Console PS5 e prodotti collegati*/
+.Console {
+    display: flex;
+}
+.ps5 img {
+    max-width: 860px;
+    max-height: 685px;
+}
+.testo {
+    margin: auto;
+}
+button {
+    background-color: #0070d1;
+    color: white;
+    border-radius: 27px;
+    width: 128px;
+    height: 40px;
+    border: none;
+}
+.NavConsole img {
+    max-width: 210px;
+    max-height: 118px;
+    margin: 40px;
+    padding: 15px;
+}
+/* codice relativo al Hader  */
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.ricerca button {
+    background-color: #0074cb;
+    border-radius: 15px;
+    color: white;
+    width: 80px;
+    border: none
+    
+    
+}
+.navbar-brand {
+    font-size: var(--bs-navbar-brand-font-size);
+    color: var(--bs-navbar-brand-color);
+    text-decoration: none;
+    white-space: nowrap;
+    width: 40px;
+}
+a.navbar-brand img {
+    width: 100%;
+}
+/* Sezione testo*/
+.testo .descrizione{
+    margin: auto;
+    font-family: Helvetica, Sans-Serif;
+    color: #444444;
+    font-size: 12pt;
+    background-color: #FAFAFA;
+}
+/* */ 
