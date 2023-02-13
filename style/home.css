@@ -50,6 +50,7 @@ button {
     width: 128px;
     height: 40px;
     border: none;
+    font-size: 12px;
 }
 .NavConsole img {
     max-width: 210px;
@@ -84,6 +85,7 @@ button {
 a.navbar-brand img {
     width: 100%;
 }
+
 /* Sezione testo*/
 .testo .descrizione{
     margin: auto;
@@ -92,4 +94,61 @@ a.navbar-brand img {
     font-size: 12pt;
     background-color: #FAFAFA;
 }
-/* */ 
+/*Giochi del momento*/ 
+
+/*codice relativo al footer*/
+footer{
+    background: #00439c;
+    position: relative;
+    width: 1500px;
+    height: 620px;
+}
+.Aziendalogo {
+    width: 100%;
+}
+.Aziendalogo div {
+    width: 100%;
+}
+.Aziendalogo div img {
+    width: 27%;
+}
+nav.contatti h2 {
+    color: white;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+.lista ul {
+    list-style-type: none;
+}
+nav.contatti {
+    display: flex;
+    justify-content: space-around;
+}
+.SIEE {
+    width: 100%;
+}
+.SIEE img {
+    width: 9%;
+}
+.SIEE p{
+    color: #FAFAFA;
+}
+nav.Terminilegali ul {
+    display: flex;
+    flex-direction: row-reverse;
+    list-style-type: none;
+}
+nav.Terminilegali ul li {
+    margin: 5px;
+}
+nav.Terminilegali ul li::before {
+    content: "";
+    height: 14px;
+    width: 1px;
+    background-color: #fff;
+    position: absolute;
+    margin-left: -5px;
+    margin-top: 9px;
+}
