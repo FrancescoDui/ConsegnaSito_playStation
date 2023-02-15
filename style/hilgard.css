@@ -1,0 +1,26 @@
+.foto {
+
+    background-image: url(../fotoplay/fotopag.png); 
+          height: 700px; 
+          width: 100%;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+    }
+    
+    .title-block h2 {
+        display: flex;
+        justify-content: center;
+        margin: 35px;
+        font-family: helvetica,sans-serif;
+        font-size: 46px;
+        color: #444444;
+    }
+
+    .immagini-goodofword img {
+        width: 100%;
+        margin-left: 161px;
+    }
+    .immagini-goodofword {
+        width: 80%;
+    }
