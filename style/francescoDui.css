@@ -1,0 +1,385 @@
+/* --------------------------------------------------------------------style home Francesco Dui-----------------------------------------------------------------*/
+
+/*------------------------------------------------------------------Console PS5 e prodotti collegati*/
+.Console {
+    display: flex;
+}
+
+.ps5 img {
+    max-width: 860px;
+    max-height: 685px;
+}
+
+.testo {
+    margin: auto;
+}
+
+button {
+    background-color: #0070d1;
+    color: white;
+    border-radius: 27px;
+    width: 128px;
+    height: 40px;
+    border: none;
+    font-size: 12px;
+}
+
+.NavConsole img {
+    max-width: 210px;
+    max-height: 118px;
+    margin: 40px;
+    padding: 15px;
+}
+
+/*--------------------------------------------------------codice relativo al Hader  */
+.navbar>.container,
+.navbar>.container-fluid,
+.navbar>.container-lg,
+.navbar>.container-md,
+.navbar>.container-sm,
+.navbar>.container-xl,
+.navbar>.container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.ricerca button {
+    background-color: #0074cb;
+    border-radius: 15px;
+    color: white;
+    width: 80px;
+    border: none
+}
+
+.navbar-brand {
+    font-size: var(--bs-navbar-brand-font-size);
+    color: var(--bs-navbar-brand-color);
+    text-decoration: none;
+    white-space: nowrap;
+    width: 40px;
+}
+
+a.navbar-brand img {
+    width: 100%;
+}
+
+/*-------------------------------------------------------------Sezione testo*/
+.testo .descrizione {
+    margin: auto;
+    font-family: Helvetica, Sans-Serif;
+    color: #444444;
+    font-size: 12pt;
+    background-color: #FAFAFA;
+}
+/*------------------------------------------------------------------Giochi del momento*/ 
+.locandina {
+    width: 100%;
+    position: relative;
+}
+.locandina .sfondo{
+    position: relative;
+}
+.locandina .sfondo img{
+    width: 100%;
+}
+.locandina nav {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    top: 16%;
+}
+.promozione img {
+    width: 50%;
+}
+.promozione {
+    width: 50%;
+    margin-left: 55px;
+}
+.prodotto {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.prodotto img {
+    width: 50%;
+}
+/*seconda locandina*/
+.promozioneInfo {
+    display: grid;
+    position: absolute;
+    top: 12%;
+    width: 100%;
+    color: #FAFAFA;
+}
+.tre {
+    display: flex;
+    position: absolute;
+    width: 50%;
+    left: 23%;
+    top: 87%;
+}
+.prom {
+    margin: 0px 4%;
+}
+.prom a img {
+    border-radius: 17px;
+    width: 400px;
+}
+.prom h4 {
+    margin: auto;
+    font-family: Helvetica, Sans-Serif;
+    color: #FAFAFA;
+    font-size: 10pt;
+}
+.prom a img:hover {
+    width: 200px;
+}
+/*terza locandina*/
+.promozioneInfo1 {
+    display: grid;
+    position: absolute;
+    top: 12%;
+    width: 200%;
+    color: #FAFAFA;
+}
+.promozioneInfo1 .A1 img {
+    width: 20%;
+}
+.promozioneInfo1 p{
+        font-size: 22px;
+}
+.promozioneInfo1 h2{
+    font-size: 37px;
+}
+.promozioneInfo1 button {
+    background-color: rgb(214 61 0);
+}
+/*quarta locandina*/
+.colore {
+    background-color: black;
+    width: 100%;
+    height: 600px;
+}
+.set1 {
+    display: flex;
+    width: 100%;
+}
+.set2 {
+    display: flex;
+    width: 100%;
+}
+.game {
+    margin: 0px 4%;
+    width: 100%;
+}
+/*-------------------------------------------------------------sezione negozio online*/
+.B1 {
+    margin-top: 34px;
+    display: flex;
+    justify-content: center;
+}
+.ps4accessori {
+    display: flex;
+    padding: 114px;
+}
+.ps4accessori div img {
+    width: 50%;
+}
+.ps4accessori button {
+    color:rgb(214 61 0);
+    background-color: #0070d1;
+    border-radius: 27px;
+    width: 128px;
+    height: 40px;
+    border: none;
+    font-size: 20px;
+}
+/*secondo store*/
+.coppia {
+    display: flex;
+    padding: 50px;
+}
+.sconti img {
+    width: 80%;
+    border-radius: 56px;
+    padding: 32px;
+}
+.PS-Store button {
+    background-color: rgb(214 61 0);
+    color: rgb(214 61 0) ;
+    border-radius: 27px;
+    width: 160px;
+    height:40px;
+    border: none;
+    font-size: 15px;
+}
+.PS-Store button:hover {
+    background-color: rgb(214 61 0);
+    color: rgb(210, 115, 77) ;
+    border-radius: 27px;
+    width: 160px;
+    height: 40px;
+}
+/*ultimo store*/
+.store4{
+    position: relative;
+}
+.store4 img{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.abbigliamento{
+    position: absolute;
+    top: 3%;
+}
+.abbigliamento img {
+    width: 9%;
+}
+
+.vestiti {
+    display: flex;
+    margin-bottom: 50px;
+    position: absolute;
+    top: 50%;
+}
+.vestiti img {
+    width: 30%;
+    padding: 15px;
+}
+.vestiti div {
+    background-color: black;
+    margin: 5px;
+}
+/*--------------------------------------------------------------------------------sezione blog*/
+section#novitàBlog .C1 {
+    display: flex;
+    justify-content: center;
+}
+.blog {
+    display: flex;
+}
+.blog a{
+    width: 100%;
+    background-color:white;
+    margin: 15px;
+}
+
+.blog a img {
+    width: 80%;
+}
+/*--------------------------------------------------------------sezione social*/
+section.social p {
+    font-size: 35px;
+}
+.social .media div a img{
+width: 50%;
+}
+section.social {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.media {
+    display: flex;
+    justify-content: center;
+    margin: 10%;
+}
+
+/*-----------------------------------------------------------codice relativo al footer*/
+footer{
+    background: #00439c;
+    position: relative;
+    width: 100%;
+    height: 620px;
+}
+.Aziendalogo {
+    width: 100%;
+}
+.Aziendalogo div {
+    width: 100%;
+}
+.Aziendalogo div img {
+    width: 27%;
+}
+.Aziendalogo::after {
+    content: "";
+    height: 1px;
+    width: 90%;
+    background-color: rgba(255,255,255,.2);
+    position: absolute;
+    margin: 20px;
+    left: 39px;
+}
+nav.contatti h2 {
+    color: white;
+    font-size: 20px;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+.lista ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav.contatti {
+    display: flex;
+    justify-content: space-around;
+    padding: 28px;
+}
+nav.contatti::after {
+    content: "";
+    height: 1px;
+    width: 90%;
+    background-color: rgba(255,255,255,.2);
+    position: absolute;
+    margin: 20px;
+    bottom: 308px;
+    left: 39px;
+}
+.SIEE {
+    width: 100%;
+}
+.SIEE img {
+    width: 100%;
+}
+.SIEE p{
+    color: #FAFAFA;
+}
+.SIEE::after {
+    content: "";
+    height: 1px;
+    width: 90%;
+    background-color: rgba(255,255,255,.2);
+    position: absolute;
+    margin: 20px;
+    bottom: 119px;
+    left: 39px;
+}
+nav.Terminilegali {
+    display: flex;
+    justify-content: space-between;
+}
+nav.Terminilegali ul {
+    display: flex;
+    flex-direction: row-reverse;
+    list-style-type: none;
+}
+nav.Terminilegali ul li {
+    margin: 5px;
+}
+nav.Terminilegali ul li::before {
+    content: "";
+    height: 14px;
+    width: 1px;
+    background-color: #fff;
+    position: absolute;
+    margin-left: -5px;
+    margin-top: 9px;
+}
